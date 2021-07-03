@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #DC7633;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#preview-div {
+  max-width: 900px;
+  width: 100%;
+}
+
+#editor-div {
+  height: 300px;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 30px;
+  
+}
+
+#editor-div, #preview-div {
+  border:  1px solid black;
+  box-shadow: 10px;
+  background-color: #F6DDCC;
+  margin-bottom: 20px;
+}
+
+img[alt = "freeCodeCamp Logo"]{
+  max-width: 100%;
+  height:100px;
+  margin-top: 15px;
+}
+
+#header {
+  color: white;
+  font-weight: 5px;
+
+}
+
+#editor-header, #editor, #preview-div {
+  background-color: #F6DDCC;
+}
+
+#editor-div {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#editor {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#editor-header, #preview-header {
+  height: 30px;
+  box-shadow: 30px;
+}
+
+#editor-div p, #preview-header p {
+  padding: 3px;
+  font-family: Impact;
+  font-size: 20px;
+  color: black;
+}
+
+#editor i, #preview-header i {
+  margin-right: 5px;
+}
+
+#preview-header {
+  border-bottom: 1px solid black;
+  margin-bottom: 3px;
+}
+
+#preview {
+  padding: 0px 30px 15px 20px;
+}
